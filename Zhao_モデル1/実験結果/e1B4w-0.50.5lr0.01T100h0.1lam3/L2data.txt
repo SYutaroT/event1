@@ -1,0 +1,74 @@
+Title:
+e:\研究M1\Deep\非線形システム\Zhao_モデル1\実験結果\e1B4w-0.50.5lr0.01T100h0.1lam3\
+
+L0:
+tensor([[-2.3284]], device='cuda:0', dtype=torch.float64)
+
+L1:
+tensor([-0.5655,  0.0727, -0.1910,  0.2049], device='cuda:0',
+       dtype=torch.float64)
+
+L2:
+tensor([-0.8863,  0.0970,  0.0019,  0.2815], device='cuda:0',
+       dtype=torch.float64)
+tensor([ 0.0970,  1.2101, -0.6583, -0.6907], device='cuda:0',
+       dtype=torch.float64)
+tensor([ 0.0019, -0.6583,  0.0878,  0.1133], device='cuda:0',
+       dtype=torch.float64)
+tensor([ 0.2815, -0.6907,  0.1133,  0.0581], device='cuda:0',
+       dtype=torch.float64)
+
+K:
+tensor([[-0.2425, -0.6455]], device='cuda:0', dtype=torch.float64)
+cost_ev1
+1333.4295366569538
+cnt_ev1
+7.0
+cost_ev_hikaku1
+1330.4947303022072
+cnt_ev_hikaku1
+60.0
+Time_cost1
+1432.9941009783176
+cost_ev2
+1557.1695711769567
+cnt_ev2
+7.0
+cost_ev_hikaku2
+1624.8657917450691
+cnt_ev_hikaku2
+68.0
+Time_cost2
+1706.4409056801446
+cost_ev3
+1371.56535238667
+cnt_ev3
+4.0
+cost_ev_hikaku3
+1509.4663762118607
+cnt_ev_hikaku3
+75.0
+Time_cost3
+1568.4111129704268
+cost_ev4
+1237.832037031628
+cnt_ev4
+5.0
+cost_ev_hikaku4
+1262.5632483348083
+cnt_ev_hikaku4
+69.0
+Time_cost4
+1332.773802421414
+cost_AVE
+1374.9991243130519
+cnt_AVE
+5.75
+cost_AVE_2
+1431.8475366484863
+cnt_AVE_2
+68.0
+cnt_AVE_Time
+1510.1549805125758
+
+Time: 18.247092485427856 /s

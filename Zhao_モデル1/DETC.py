@@ -23,9 +23,7 @@ from torch.utils.data import DataLoader
 
 start_time = time.time()
 # ?----------------------------------------------------------------保存
-name = parameter.Folder
-File = parameter.Dt
-path = File + name+"R"
+path = parameter.Folder+parameter.Dt
 directory = os.path.dirname(path)
 
 # ディレクトリが存在しない場合、作成する
@@ -271,8 +269,8 @@ datasize = parameter.datasize
 x0 = parameter.x0.to(device)
 xf = torch.tensor([[0.0], [0.0]], dtype=torch.double, device=device)
 # TODO グラフ保存
-path2 = "e" + str(epoch) + "B" + str(Batch) + "\\w"+str(parameter.wmin)+str(parameter.wmax) + \
-    "\\lr" + str(lr) + "\\T" + str(T) + "-h" + str(h) + "\\lam" + str(lam)+"\\"
+path2 = "e" + str(epoch) + "B" + str(Batch) + "w"+str(parameter.wmin)+str(parameter.wmax) + \
+    "lr" + str(lr) + "T" + str(T) + "h" + str(h) + "lam" + str(lam)+"\\"
 imgname = path+path2
 data = imgname+"L2data.txt"
 directory = os.path.dirname(imgname)
